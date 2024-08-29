@@ -1,12 +1,12 @@
 [submodule "sandbox-ui"]
-    path = sandbox-ui
-    url = https://github.com/mofahsan/sandbox-ui
+	path = sandbox-ui
+	url = https://github.com/mofahsan/sandbox-ui
 [submodule "buyer-mock-engine"]
-    path = buyer-mock-engine
-    url = https://github.com/ONDC-Official/buyer-mock-engine
+	path = buyer-mock-engine
+	url = https://github.com/ONDC-Official/buyer-mock-engine
 [submodule "seller-mock-engine"]
-    path = seller-mock-engine
-    url = https://github.com/ONDC-Official/seller-mock-engine
+	path = seller-mock-engine
+	url = https://github.com/ONDC-Official/seller-mock-engine
 [submodule "protocol-server-engine"]
 	path = protocol-server-engine
 	url = https://github.com/ONDC-Official/protocol-server-engine
