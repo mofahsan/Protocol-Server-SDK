@@ -1,6 +1,6 @@
-[submodule "sandbox-ui"]
-	path = sandbox-ui
-	url = https://github.com/mofahsan/sandbox-ui
+[submodule "mock-ui"]
+	path = mock-ui
+	url = https://github.com/ONDC-Official/mock-ui
 [submodule "buyer-mock-engine"]
 	path = buyer-mock-engine
 	url = https://github.com/ONDC-Official/buyer-mock-engine
