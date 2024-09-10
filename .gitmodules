@@ -1,21 +1,28 @@
 [submodule "mock-ui"]
 	path = mock-ui
 	url = https://github.com/ONDC-Official/mock-ui
+	branch = master
 [submodule "buyer-mock-engine"]
 	path = buyer-mock-engine
 	url = https://github.com/ONDC-Official/buyer-mock-engine
+	branch = master
 [submodule "seller-mock-engine"]
 	path = seller-mock-engine
 	url = https://github.com/ONDC-Official/seller-mock-engine
+	branch = master
 [submodule "protocol-server-engine"]
 	path = protocol-server-engine
 	url = https://github.com/ONDC-Official/protocol-server-engine
+	branch = master
 [submodule "buyer-mock-config"]
 	path = buyer-mock-config
 	url = https://github.com/ONDC-Official/buyer-mock-config
+	branch = master
 [submodule "seller-mock-config"]
 	path = seller-mock-config
 	url = https://github.com/ONDC-Official/seller-mock-config
+	branch = master
 [submodule "protocol-server-config"]
 	path = protocol-server-config
 	url = https://github.com/ONDC-Official/protocol-server-config
+	branch = master
