@@ -43,6 +43,26 @@ Holds configs for rendering UI elements and order of transaction for seller.
 - npm
 - ngrok (https://ngrok.com/download)
 
+# Submodules intialization
+
+- Initialize submodules
+
+```
+git submodule
+```
+
+- Updates submodules to the specific commit that is recorded in the main repository’s current commit
+
+```
+git submodule update
+```
+
+- Updates the submodule to the latest commit on the branch specified in the .gitmodules file.
+
+```
+git submodule update --remote --merge
+```
+
 # How to run - local
 
 - Start ngrok instance
