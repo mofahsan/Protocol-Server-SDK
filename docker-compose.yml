@@ -1,0 +1,31 @@
+services:
+  protocol-server-engine:
+    build: ./protocol-server-engine
+    container_name: protocol-server-engine
+    ports:
+      - ${PROTOCOL_SERVER_ENGINE_PORT:-7201}:7201
+    restart: always
+    networks:
+      - mock-network
+
+  seller-mock-engine:
+    build: ./seller-mock-engine
+    container_name: seller-mock-engine
+    ports:
+      - ${SELLER_MOCK_ENGINE_PORT:-7202}:7202
+    restart: always
+    networks:
+      - mock-network
+
+  mock-ui:
+      build: ./mock-ui
+      container_name: mock-ui-frontend
+      ports:
+        - ${MOCK_UI_PORT:-3000}:80
+      restart: always
+      networks:
+        - mock-network
+
+networks:
+  mock-network:
+    driver: bridge
